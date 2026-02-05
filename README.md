@@ -36,4 +36,6 @@ My focus is on **production-grade systems**: correctness, performance, reliabili
 - VS Code
 - Cloudflare Pages (deployment)
 
-
+This project follows an **Astro-based static-first architecture** using **SSG**, deployed to a CDN. 
+The design supports **incremental content scaling via Markdown** and **selective SSR** for future dynamic use cases, 
+but the default prioritizes **performance**, **security**, and **operational simplicity**.
